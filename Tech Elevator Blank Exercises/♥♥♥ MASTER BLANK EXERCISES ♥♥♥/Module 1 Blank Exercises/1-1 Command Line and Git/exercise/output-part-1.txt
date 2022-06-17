@@ -1,0 +1,37 @@
+
+---- VERIFYING PART 1 ---- 
+
+✅ 1. /c/Users/Student/playground exists
+✅ 2. /c/Users/Student/playground/usa exists
+❗️ 3. /c/Users/Student/playground/canada does not exist
+✅ 4. /c/Users/Student/playground/usa/ohio exists
+❗️ 5. /c/Users/Student/playground/usa/pennsylvania does not exist
+✅ 6. /c/Users/Student/playground/usa/michigan exists
+❗️ 7. /c/Users/Student/playground/canada/quebec does not exist
+❗️ 8. /c/Users/Student/playground/canada/british-columbia does not exist
+✅ 9. /c/Users/Student/playground/usa/ohio/cuyahoga exists
+✅ 10. /c/Users/Student/playground/usa/ohio/hamilton exists
+❗️ 11. /c/Users/Student/playground/usa/ohio/franklin does not exist
+❗️ 12. /c/Users/Student/playground/usa/pennsylvania/allegheny does not exist
+✅ 13. /c/Users/Student/playground/usa/michigan/wayne exists
+❗️ 14. /c/Users/Student/playground/usa/ohio/cuyahoga/cleveland.txt does not exist
+✅ 15. /c/Users/Student/playground/usa/ohio/hamilton/cincinnati.txt exists
+❗️ 16. /c/Users/Student/playground/usa/ohio/franklin/columbus.txt does not exist
+❗️ 17. /c/Users/Student/playground/usa/pennsylvania/allegheny/pittsburgh.txt does not exist
+❗️ 18. /c/Users/Student/playground/usa/michigan/wayne/detroit.txt does not exist
+❗️ 19. /c/Users/Student/playground/canada/quebec/montreal.txt does not exist
+❗️ 20. /c/Users/Student/playground/canada/quebec/quebec-city.txt does not exist
+❗️ 21. /c/Users/Student/playground/canada/british-columbia/vancouver.txt does not exist
+❗️ 22. /c/Users/Student/playground/canada/british-columbia/prince-george.txt does not exist
+
+Total tests: 22
+Tests passed: 8
+Errors: 14
+
+ You still need to make a few more changes.
+ If you are having difficulty troubleshooting, try the following:
+ - Use 'pwd' to print out your current working directory.
+ - Check for typos in the names of folders or file paths.
+ - When changing directories, '..' means up one directory. '.' means the current directory.
+ - Reference Finder (Mac) or Explorer (PC) to make sure everything is in the correct location.
+
