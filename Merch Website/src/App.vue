@@ -17,6 +17,7 @@ import TheWelcome from './components/TheWelcome.vue'
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 header {
   text-align: center;
   font-size: 50px;
@@ -35,5 +36,8 @@ span {
 }
 .Unisex-select{
   order: 3;
+}
+body{
+  font-family: 'Kaushan Script', cursive;
 }
 </style>
