@@ -38,6 +38,6 @@ span {
   order: 3;
 }
 body{
-  font-family: 'Kaushan Script', cursive;
+  
 }
 </style>
