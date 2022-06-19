@@ -20,7 +20,7 @@ import TheWelcome from './components/TheWelcome.vue'
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 header {
   text-align: center;
-  font-size: 100px;
+  font-size: 80px;
 }
 
 span {
