@@ -13,11 +13,11 @@ header{
   padding-top: 550 px;
   font-size: 90px;
   justify-content: center;
-  background-image: src(\Side-Projects\my-app\src\assets\7014660.jpg);
+
   background-size: auto;
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 img{
-  height: auto;
-   
+  height: 830px;
+}
 
