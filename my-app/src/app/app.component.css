@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
+
+
+
+
+
+
+
 header{
   display: flex;
   background-color: rgba(98, 98, 180, 0.772);
   padding-top: 550 px;
   font-size: 90px;
   justify-content: center;
-  background-image: url(https://img.freepik.com/free-vector/window-seat-concept-illustration_114360-5992.jpg?t=st=1656040194~exp=1656040794~hmac=305d8e642d229df2050e55e0d23926a3bd9a1306b68fc98bd979005626749751&w=826);
-  background-size: auto 250px;
-
+  background-image: src(\Side-Projects\my-app\src\assets\7014660.jpg);
+  background-size: auto;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 
