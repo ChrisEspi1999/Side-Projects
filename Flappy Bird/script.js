@@ -15,6 +15,9 @@ setInterval(function(){
     if(jumping == 0){
     player.style.top = (playerTop+3)+"px";
     }
+    var pipeLeft = parseInt(window.getComputedStyle(pipe).getPropertyValue("left"));
+    var gapTop = parseInt(window.getComputedStyle(gap).getPropertyValue("top"));
+    
     if(playerTop>480){
         alert("You Died! Score: " + (counter-1));
         player.style.top = 100 + "px";
