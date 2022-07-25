@@ -11,6 +11,7 @@ gap.addEventListener('animationiteration', () => {
 });
 
 setInterval(function(){
+    // "Gravity" of player
     var playerTop = parseInt(window.getComputedStyle(player).getPropertyValue("top"));
     if(jumping == 0){
     player.style.top = (playerTop+3)+"px";
