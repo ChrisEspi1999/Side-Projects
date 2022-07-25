@@ -1,6 +1,7 @@
 <script setup>
 import HelloWorld from "./components/HelloWorld.vue";
 import TheWelcome from "./components/TheWelcome.vue";
+import MenHatsVue from "./routes/MenHats.vue";
 </script>
 
 <!-- ********************************************************************************************************************* -->
@@ -19,7 +20,7 @@ import TheWelcome from "./components/TheWelcome.vue";
         <div class="dropdown">
           <button class="dropbtn">Men</button>
           <div class="dropdown-content">
-            <a href="#">Link 1</a>
+            <a href="src\routes\MenHats.vue">Link 1</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
           </div>
@@ -53,7 +54,7 @@ import TheWelcome from "./components/TheWelcome.vue";
 
     </span>
   </body>
-
+<component :is="currentView" />
  
 </template>
 
