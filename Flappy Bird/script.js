@@ -17,8 +17,8 @@ setInterval(function(){
     }
     var pipeLeft = parseInt(window.getComputedStyle(pipe).getPropertyValue("left"));
     var gapTop = parseInt(window.getComputedStyle(gap).getPropertyValue("top"));
-    
-    if(playerTop>480){
+    var pTop = -(500 - playerTop);
+    if(playerTop>480 || ((pipeLeft < 20) && (pipeLeft > -50)&&((pTop < gapTop) || (pTop > gapTop + 130)))){
         alert("You Died! Score: " + (counter-1));
         player.style.top = 100 + "px";
         counter = 0;
