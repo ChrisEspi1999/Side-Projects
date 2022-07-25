@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flappy-bird{
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    overflow: hidden;
+}
+.pipe{
+    width: 50px;
+    height: 500px;
+    background-color: rgb(143, 255, 135);
+}
