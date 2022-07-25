@@ -28,6 +28,7 @@ setInterval(function(){
     }
 },10);
 
+
 function jump(){
     jumping = 1;
     let jumpCount = 0;
