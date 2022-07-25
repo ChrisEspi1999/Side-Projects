@@ -26,6 +26,7 @@ import TheWelcome from "./components/TheWelcome.vue";
         </div>
       </div>
 
+      <!-- Women Dropdown Menu -->
       <div class="Women-select">
         <div class="dropdown">
           <button class="dropbtn">Women</button>
@@ -36,7 +37,9 @@ import TheWelcome from "./components/TheWelcome.vue";
           </div>
         </div>
       </div>
-
+      
+      
+      <!-- Unisex Dropdown Menu -->
       <div class="Unisex-select">
         <div class="dropdown">
           <button class="dropbtn">Unisex</button>
@@ -53,6 +56,7 @@ import TheWelcome from "./components/TheWelcome.vue";
 
  
 </template>
+
 <!-- ********************************************************************************************************************* -->
 <!-- ********************************************************************************************************************* -->
 <!-- END OF HTML -->
