@@ -9,7 +9,7 @@ import TheWelcome from './components/TheWelcome.vue'
     <header>Nice Shirts</header>
 
     <span class="Men-select">Men</span>
-    <span class="Women-select">Womens</span>
+    <span class="Women-select">Women</span>
     <span class="Unisex-select">Unisex</span>
 
   </body>
@@ -37,7 +37,12 @@ span {
 .Unisex-select{
   order: 3;
 }
-body{
+header{
   font-family: 'Kaushan Script', cursive;
+  background-color: aquamarine;
+  
+}
+html{
+  margin: -1%;
 }
 </style>
