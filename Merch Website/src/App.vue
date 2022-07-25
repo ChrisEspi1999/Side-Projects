@@ -13,6 +13,8 @@ import TheWelcome from "./components/TheWelcome.vue";
   <body>
     <header>Nice Shirts</header>
     <span class="contaner">
+
+      <!-- Men Dropdown Menu -->
       <div class="Men-select">
         <div class="dropdown">
           <button class="dropbtn">Men</button>
@@ -24,20 +26,32 @@ import TheWelcome from "./components/TheWelcome.vue";
         </div>
       </div>
 
-      <span class="Women-select">Women</span>
+      <div class="Women-select">
+        <div class="dropdown">
+          <button class="dropbtn">Women</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
 
-      <span class="Unisex-select">Unisex</span>
+      <div class="Unisex-select">
+        <div class="dropdown">
+          <button class="dropbtn">Unisex</button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div>
+      </div>
+
     </span>
   </body>
 
-  <div class="dropdown">
-    <button class="dropbtn">Dropdown</button>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </div>
+ 
 </template>
 <!-- ********************************************************************************************************************* -->
 <!-- ********************************************************************************************************************* -->
