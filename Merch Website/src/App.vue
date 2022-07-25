@@ -1,6 +1,6 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import TheWelcome from "./components/TheWelcome.vue";
 </script>
 
 <!-- ********************************************************************************************************************* -->
@@ -9,43 +9,35 @@ import TheWelcome from './components/TheWelcome.vue'
 <!-- ********************************************************************************************************************* -->
 <!-- ********************************************************************************************************************* -->
 
-
-
 <template>
   <body>
     <header>Nice Shirts</header>
     <span class="contaner">
-
-
-      <div class="dropdown">
-        <button class="dropbtn">Men</button>
+      <div class="Men-select">
+        <div class="dropdown">
+          <button class="dropbtn">Men</button>
           <div class="dropdown-content">
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
           </div>
+        </div>
       </div>
-
 
       <span class="Women-select">Women</span>
 
-
-
       <span class="Unisex-select">Unisex</span>
-
-      
     </span>
   </body>
 
-<div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
   </div>
-</div>
-
 </template>
 <!-- ********************************************************************************************************************* -->
 <!-- ********************************************************************************************************************* -->
@@ -53,19 +45,14 @@ import TheWelcome from './components/TheWelcome.vue'
 <!-- ********************************************************************************************************************* -->
 <!-- ********************************************************************************************************************* -->
 
-
-
-
 <!-- ********************************************************************************************************************* -->
 <!-- ********************************************************************************************************************* -->
 <!-- START OF CSS -->
 <!-- ********************************************************************************************************************* -->
 <!-- ********************************************************************************************************************* -->
 
-
-
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
 header {
   text-align: center;
   font-size: 80px;
@@ -76,42 +63,35 @@ span {
   justify-content: center;
   flex-direction: row;
 }
-.Men-select{
+.Men-select {
   order: 1;
   margin: 15px;
-
-  
 }
-.Women-select{
+.Women-select {
   order: 2;
   background-color: aqua;
   margin: 15px;
 }
-.Unisex-select{
+.Unisex-select {
   order: 3;
   margin: 15px;
-
 }
-.container{
+.container {
   display: flex;
-  
-  
 }
-header{
-  font-family: 'Kaushan Script', cursive;
+header {
+  font-family: "Kaushan Script", cursive;
   background-image: url(https://img.freepik.com/free-vector/vibrant-wide-banner-with-diagonal-stripes-pattern_1017-28366.jpg?t=st=1658766320~exp=1658766920~hmac=b5bed5040eda302639202571a515f07a9cca6bdd8df5eeb3722956b0038fbd9d&w=2000);
   background-repeat: no-repeat;
   background-size: cover;
-  
-  
 }
-html{
+html {
   margin: -1%;
 }
 
 /* Style The Dropdown Button */
 .dropbtn {
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -131,7 +111,7 @@ html{
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
 }
 
@@ -144,7 +124,9 @@ html{
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -155,7 +137,6 @@ html{
 .dropdown:hover .dropbtn {
   background-color: #3e8e41;
 }
-
 </style>
 
 <!-- ********************************************************************************************************************* -->
