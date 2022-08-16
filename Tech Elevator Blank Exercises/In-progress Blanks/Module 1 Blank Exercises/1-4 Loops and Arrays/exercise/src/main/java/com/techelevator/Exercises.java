@@ -10,8 +10,13 @@ public class Exercises {
 	 firstLast6([13, 6, 1, 2, 3]) → false
 	 */
 	public boolean firstLast6(int[] nums) {
-		return false;
+		if (nums[0] == 6 || nums[nums.length -1] == 6) {
+			return true;
+		} else {
+			return false;
+		}
 	}
+
 
 	/*
 	 2. Given an array of ints, return true if the array is length 1 or more, and the first element and
@@ -21,6 +26,7 @@ public class Exercises {
 	 sameFirstLast([1, 2, 1]) → true
 	 */
 	public boolean sameFirstLast(int[] nums) {
+		
 		return false;
 	}
 
