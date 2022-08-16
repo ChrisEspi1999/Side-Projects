@@ -26,8 +26,12 @@ public class Exercises {
 	 sameFirstLast([1, 2, 1]) → true
 	 */
 	public boolean sameFirstLast(int[] nums) {
-		
-		return false;
+		if (nums[0] == nums[nums.length -1]){
+			return true;
+		}else {
+			return false;
+		}
+
 	}
 
 	/*
@@ -35,7 +39,7 @@ public class Exercises {
 	 makePi() → [3, 1, 4]
 	 */
 	public int[] makePi() {
-		return new int[] {};
+		return new int[] {3,1,4};
 	}
 
 	/*
@@ -46,6 +50,9 @@ public class Exercises {
 	 commonEnd([1, 2, 3], [1, 3]) → true
 	 */
 	public boolean commonEnd(int[] a, int[] b) {
+		if (a[0] == b[0] || a[a.length -1] == b[b.length -1]){
+			return true;
+		}
 		return false;
 	}
 
@@ -56,7 +63,12 @@ public class Exercises {
 	 sum3([7, 0, 0]) → 7
 	 */
 	public int sum3(int[] nums) {
-		return 0;
+		int sum = 0;
+
+		for (int i = 0; i < nums.length; i++){
+			sum += nums[i];
+		}
+		return sum;
 	}
 
 	/*
@@ -67,7 +79,10 @@ public class Exercises {
 	 rotateLeft3([7, 0, 0]) → [0, 0, 7]
 	 */
 	public int[] rotateLeft3(int[] nums) {
-		return new int[] {};
+
+
+
+		return new int[] {nums[1], nums[2], nums[0]};
 	}
 
 	/*
@@ -78,7 +93,7 @@ public class Exercises {
 	 reverse3([7, 0, 0]) → [0, 0, 7]
 	 */
 	public int[] reverse3(int[] nums) {
-		return new int[] {};
+		return new int[] {nums[2], nums[1], nums[0]};
 	}
 
 	/*
