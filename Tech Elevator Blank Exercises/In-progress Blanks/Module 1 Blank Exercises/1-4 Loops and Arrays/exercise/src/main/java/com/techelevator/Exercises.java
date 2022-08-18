@@ -79,9 +79,7 @@ public class Exercises {
 	 rotateLeft3([7, 0, 0]) → [0, 0, 7]
 	 */
 	public int[] rotateLeft3(int[] nums) {
-
-
-
+		
 		return new int[] {nums[1], nums[2], nums[0]};
 	}
 
