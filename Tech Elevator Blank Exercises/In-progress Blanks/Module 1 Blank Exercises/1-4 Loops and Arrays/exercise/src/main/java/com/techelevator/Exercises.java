@@ -172,10 +172,15 @@ public class Exercises {
 	 sum13([1, 2, 2, 1, 13, 3, 4]) → 10
 	 */
 	public int sum13(int[] nums) {
-
-
-
-		return 0;
+		int sum = 0;
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] == 13) {
+				i++; //skips the next element
+			} else {
+				sum += nums[i];
+			}
+		}
+		return sum;
 	}
 
 	/*
@@ -185,6 +190,12 @@ public class Exercises {
 	 has22([2, 1, 2]) → false
 	 */
 	public boolean has22(int[] nums) {
+		// Note there is no need to check the last element to see if it has a 2 after it, hence nums.length-1
+		for (int i = 0; i < nums.length - 1; i++) {
+			if (nums[i] == 2 && nums[i + 1] == 2) {
+				return true;
+			}
+		}
 		return false;
 	}
 	
@@ -195,8 +206,14 @@ public class Exercises {
 	 lucky13([1, 2, 4]) → false
 	 */
 	public boolean lucky13(int[] nums) {
-		return false;
+
+		for (int i = 0; i < nums.length; i++) {
+			if (nums[i] == 1 || nums[i] == 3) {
+				return false;
+			}
+		}return true;
 	}
+
 
 	/*
 	 15. Given an array of ints, return true if the sum of all the 2's in the array is exactly 8.
@@ -205,7 +222,15 @@ public class Exercises {
 	 sum28([1, 2, 3, 4]) → false
 	 */
 	public boolean sum28(int[] nums) {
-		return false;
+		int sum = 0;
+
+		for (int i = 0; i < nums.length;i++){
+			if (nums[i] == 2){
+				sum+=2;
+			}
+		}
+
+		return sum == 8;
 	}
 
 }
