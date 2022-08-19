@@ -79,7 +79,7 @@ public class Exercises {
 	 rotateLeft3([7, 0, 0]) → [0, 0, 7]
 	 */
 	public int[] rotateLeft3(int[] nums) {
-		
+
 		return new int[] {nums[1], nums[2], nums[0]};
 	}
 
@@ -102,7 +102,14 @@ public class Exercises {
 	 maxEnd3([2, 11, 3]) → [3, 3, 3]
 	 */
 	public int[] maxEnd3(int[] nums) {
-		return new int[] {};
+		
+		if (nums[0] > nums[2]){
+			return new int[] {nums[0], nums[0], nums[0]};
+		} else if (nums[0]< nums[2]) {
+			return new int[] {nums[2], nums[2], nums[2]};
+		}
+
+		return nums;
 	}
 
 	/*
