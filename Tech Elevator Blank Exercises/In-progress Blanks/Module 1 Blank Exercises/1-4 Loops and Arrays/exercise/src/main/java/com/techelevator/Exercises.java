@@ -120,8 +120,11 @@ public class Exercises {
 	 sum2([1, 1, 1, 1]) → 2
 	 */
 	public int sum2(int[] nums) {
-		return 0;
-	}
+		if (nums.length<2){
+			return nums[0];
+		}else {
+		return nums[0] + nums[1];
+	}}
 
 	/*
 	 10. Given 2 int arrays, a and b, each length 3, return a new array length 2 containing their middle 
