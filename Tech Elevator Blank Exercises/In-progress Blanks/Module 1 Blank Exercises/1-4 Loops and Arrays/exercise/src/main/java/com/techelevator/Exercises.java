@@ -120,11 +120,16 @@ public class Exercises {
 	 sum2([1, 1, 1, 1]) → 2
 	 */
 	public int sum2(int[] nums) {
-		if (nums.length<2){
-			return nums[0];
-		}else {
-		return nums[0] + nums[1];
-	}}
+		int sum = 0;
+
+		for (int i = 0; i < nums.length && i < 2; i++){
+			sum += nums[i];
+		}
+
+
+
+		return sum;
+	}
 
 	/*
 	 10. Given 2 int arrays, a and b, each length 3, return a new array length 2 containing their middle 
@@ -134,7 +139,7 @@ public class Exercises {
 	 middleWay([5, 2, 9], [1, 4, 5]) → [2, 4]
 	 */
 	public int[] middleWay(int[] a, int[] b) {
-		return new int[] {};
+		return new int[] {a[1], b[1]};
 	}
 
 	/*
@@ -145,7 +150,15 @@ public class Exercises {
 	 countEvens([1, 3, 5]) → 0
 	 */
 	public int countEvens(int[] nums) {
-		return 0;
+		int evenInts = 0;
+
+		for (int i = 0; i < nums.length; i++){
+			if (nums[i] % 2 == 0){
+				evenInts++;
+			}
+		}
+
+		return evenInts;
 	}
 
 	/*
@@ -159,6 +172,9 @@ public class Exercises {
 	 sum13([1, 2, 2, 1, 13, 3, 4]) → 10
 	 */
 	public int sum13(int[] nums) {
+
+
+
 		return 0;
 	}
 
