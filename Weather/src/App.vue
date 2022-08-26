@@ -16,6 +16,7 @@ export default{
           .then(res => {
             return res.json();
           }).then(this.setResults);
+          
       }
     },
     setResults (results) {
