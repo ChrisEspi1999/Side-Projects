@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e844315c-41c4-4293-bcd0-f7a3243ef055" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../1-3 Branching and Conditional Statements/exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1-3 Branching and Conditional Statements/exercise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/Exercises.java" afterDir="false" />
-    </list>
+    <list default="true" id="e844315c-41c4-4293-bcd0-f7a3243ef055" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,13 +22,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Local Repository/Side-Projects/Tech Elevator Blank Exercises/In-progress Blanks/Module 1 Blank Exercises/1-6 Strings/exercise"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Local Repository/Side-Projects/Tech Elevator Blank Exercises/In-progress Blanks/Module 1 Blank Exercises/1-6 Strings/exercise&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="All in intro-to-objects-exercise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intro-to-objects-exercise" />
