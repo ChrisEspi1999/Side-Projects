@@ -80,6 +80,7 @@ export default{
   body{
    font-family: 'Montserrat', sans-serif;
   }
+  
   #app{
     background-image: url('D:\Local Repository\Side-Projects\Weather\src\assets\cold-bg.jpg');
     background-size: cover;
