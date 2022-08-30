@@ -44,7 +44,7 @@ public class Exercises {
 	 makeOutWord("[[]]", "word") → "[[word]]"
 	 */
 	public String makeOutWord(String out, String word) {
-		return out.substring(0,2) + word + out.substring(2);
+		return out.substring(0, 2) + word + out.substring(2);
 	}
 
 	/*
@@ -81,7 +81,7 @@ public class Exercises {
 	 firstHalf("abcdef") → "abc"
 	 */
 	public String firstHalf(String str) {
-		return str.substring(0,str.length()/2);
+		return str.substring(0, str.length() / 2);
 	}
 
 	/*
@@ -92,7 +92,7 @@ public class Exercises {
 	 withoutEnd("coding") → "odin"
 	 */
 	public String withoutEnd(String str) {
-		return str.substring(1,str.length()-1);
+		return str.substring(1, str.length() - 1);
 	}
 
 	/*
@@ -119,7 +119,7 @@ public class Exercises {
 	 nonStart("shotl", "java") → "hotlava"
 	 */
 	public String nonStart(String a, String b) {
-		return a.substring(1)+b.substring(1);
+		return a.substring(1) + b.substring(1);
 	}
 
 	/*
@@ -130,7 +130,7 @@ public class Exercises {
 	 left2("Hi") → "Hi"
 	 */
 	public String left2(String str) {
-		return str.substring(2)+str.substring(0,2);
+		return str.substring(2) + str.substring(0, 2);
 	}
 
 	/*
@@ -141,7 +141,7 @@ public class Exercises {
 	 right2("Hi") → "Hi"
 	 */
 	public String right2(String str) {
-		return str.substring(str.length()-2)+str.substring(0,str.length()-2);
+		return str.substring(str.length() - 2) + str.substring(0, str.length() - 2);
 	}
 
 	/*
@@ -155,9 +155,10 @@ public class Exercises {
 		if (!front) {
 			return str.substring(str.length() - 1);
 		} else {
-			return str.substring(0,1);
+			return str.substring(0, 1);
 		}
 	}
+
 	/*
 	 Given a string, return a version without both the first and last char of the string. The string
 	 may be any length, including 0.
@@ -166,8 +167,12 @@ public class Exercises {
 	 withoutEnd2("ab") → ""
 	 */
 	public String withoutEnd2(String str) {
-		return null;
+		if (str.length() <= 2) {
+			return "";
+		}
+		return str.substring(1, str.length() - 1);
 	}
+
 
 	/*
 	 Given a string of even length, return a string made of the middle two chars, so the string "string"
