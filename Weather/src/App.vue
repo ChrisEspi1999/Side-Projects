@@ -80,7 +80,7 @@ export default{
   body{
    font-family: 'Montserrat', sans-serif;
   }
-  
+
   #app{
     background-image: url('D:\Local Repository\Side-Projects\Weather\src\assets\cold-bg.jpg');
     background-size: cover;
@@ -88,7 +88,7 @@ export default{
     transition: 0.4s;
   }
   #app.warm {
-    background-image: url(D:\Local Repository\Side-Projects\Weather\src\assets\warm-bg.jpg);
+    background-image: url('D:\Local Repository\Side-Projects\Weather\src\assets\warm-bg.jpg');
   }
   main{
     min-height: 100vh;
