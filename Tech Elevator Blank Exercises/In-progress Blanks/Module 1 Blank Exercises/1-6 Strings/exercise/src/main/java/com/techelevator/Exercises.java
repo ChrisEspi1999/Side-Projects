@@ -152,9 +152,12 @@ public class Exercises {
 	 theEnd("oh", true) → "o"
 	 */
 	public String theEnd(String str, boolean front) {
-		return null;
+		if (!front) {
+			return str.substring(str.length() - 1);
+		} else {
+			return str.substring(0,1);
+		}
 	}
-
 	/*
 	 Given a string, return a version without both the first and last char of the string. The string
 	 may be any length, including 0.
