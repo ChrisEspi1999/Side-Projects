@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e844315c-41c4-4293-bcd0-f7a3243ef055" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/Exercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/Exercises.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,7 +31,7 @@
     &quot;last_opened_file_path&quot;: &quot;D:/Local Repository/Side-Projects/Tech Elevator Blank Exercises/In-progress Blanks/Module 1 Blank Exercises/1-6 Strings/exercise&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in intro-to-objects-exercise">
     <configuration name="All in intro-to-objects-exercise" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intro-to-objects-exercise" />
       <option name="PACKAGE_NAME" value="" />
@@ -41,9 +40,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExercisesTest.altPairs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="intro-to-objects-exercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.techelevator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.techelevator" />
+      <option name="MAIN_CLASS_NAME" value="com.techelevator.ExercisesTest" />
+      <option name="METHOD_NAME" value="altPairs" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in intro-to-objects-exercise" />
+        <item itemvalue="JUnit.ExercisesTest.altPairs" />
       </list>
     </recent_temporary>
   </component>
