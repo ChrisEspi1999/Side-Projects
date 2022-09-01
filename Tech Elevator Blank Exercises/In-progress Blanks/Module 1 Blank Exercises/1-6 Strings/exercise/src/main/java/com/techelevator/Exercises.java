@@ -193,11 +193,13 @@ public class Exercises {
 	 endsLy("oddy") → false
 	 */
 	public boolean endsLy(String str) {
-		if (str.substring(str.length() - 2).equals("ly") && str.length() >= 2){
-			return true;
-		}else {
-		return false;
-	}}
+		int len = str.length();
+		if (len < 2) {
+			return false;
+		}
+		return str.substring(len - 2).equals("ly");
+	}
+
 
 	/*
 	 Given a string and an int n, return a string made of the first and last n chars from the string. The
