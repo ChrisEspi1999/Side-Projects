@@ -199,7 +199,7 @@ public class Exercises {
 		}
 		return str.substring(len - 2).equals("ly");
 	}
-
+test
 
 	/*
 	 Given a string and an int n, return a string made of the first and last n chars from the string. The
