@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="651737e0-a111-47f8-b147-118110268daf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../1-6 Strings/exercise/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../1-6 Strings/exercise/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/FruitTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/FruitTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/techelevator/HomeworkAssignment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/techelevator/HomeworkAssignment.java" afterDir="false" />
-    </list>
+    <list default="true" id="651737e0-a111-47f8-b147-118110268daf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +26,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Local Repository/Side-Projects/Tech Elevator Blank Exercises/In-progress Blanks/Module 1 Blank Exercises/1-9 Classes and Encapsulation/exercise"
+    "last_opened_file_path": "D:/Local Repository/Side-Projects/Tech Elevator Blank Exercises/In-progress Blanks/Module 1 Blank Exercises/1-7 Lists, Stacks and Queues/exercise"
   }
 }]]></component>
   <component name="RunManager">
